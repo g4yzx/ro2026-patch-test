@@ -1,4 +1,20 @@
 {
-  "_note": "RO2026 补丁分发通道（git 侧清单 + Release 资产）",
-  "base": "20260219"
+  "base": "20260219",
+  "latest": "0.0.1",
+  "minLauncher": "1.0.0",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v0.0.1/",
+  "mirrors": [
+    "https://gh-proxy.com/",
+    "https://ghfast.top/",
+    "https://ghproxy.net/",
+    ""
+  ],
+  "patches": [
+    {
+      "ver": "0.0.1",
+      "url": "patch-0.0.1.zip",
+      "sha256": "91117dccdfe8db42ec6e4d8fb6966614f0f2eecbe88b7f96a91272eb07e101f8",
+      "size": 231765
+    }
+  ]
 }
