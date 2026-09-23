@@ -56,14 +56,14 @@
   ],
   "notes": "1.0.3：改为「全量包」分发 —— 一次更新即可对齐到最新，任意历史版本都能直接升上来，不必逐版本按序打补丁。同时修正客户端内嵌的服务器地址（此前写死 127.0.0.1，导致进游戏提示「服务器连接失败」）。",
   "launcher": {
-    "version": "1.0.3",
-    "name": "RoLauncher-1.0.3.exe",
+    "version": "1.0.4",
+    "name": "RoLauncher-1.0.4.exe",
     "size": 64699731,
-    "sha256": "b3e38014d6ee2ba17cca0ea9e984dbfd9508320b34cb19a14e95a75c66eda31d",
+    "sha256": "2c8c1589e6ac44c109efc8243222cfd159bdc8c4769d56f26b80ef72bcc59171",
     "origins": [
       "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
     ],
-    "notes": "1.0.3：支持补丁分片下载与版本链校验（跳版本/清单裁剪也能正确升级）"
+    "notes": "1.0.4：支持补丁分片下载与版本链校验 —— 跳版本、清单裁剪、状态跳号都能正确升级"
   }
 }
