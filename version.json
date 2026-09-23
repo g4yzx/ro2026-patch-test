@@ -1,6 +1,6 @@
 {
   "base": "20260219",
-  "latest": "1.0.2",
+  "latest": "1.0.3",
   "minLauncher": "1.0.0",
   "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
   "mirrors": [
@@ -11,38 +11,59 @@
   ],
   "patches": [
     {
-      "ver": "1.0.2",
-      "url": "patch-1.0.2.zip",
-      "sha256": "d66e1918f975bded9a860418f2ad16e318697d322a799fa8b6535ef39e081d2d",
-      "size": 46683244,
+      "ver": "1.0.3",
+      "url": "patch-1.0.3.zip",
+      "sha256": "204edbc8c5a6a938cfb47b6e523540e9df618782d140346ba004376812f78417",
+      "size": 184274481,
       "parts": [
         {
-          "name": "patch-1.0.2.zip.001",
+          "name": "patch-1.0.3.zip.001",
           "size": 33554432,
-          "sha256": "1878d9cdbaa233213cedbf60f8bc3ddb70b237497814cf8b3431d4b405a5c487"
+          "sha256": "7494185c71244f59f6068c6ebcb32df0978036277c48abe3706cfd7350382a51"
         },
         {
-          "name": "patch-1.0.2.zip.002",
-          "size": 13128812,
-          "sha256": "68d03e189e678d9834045798c92e9f0b9408a7be52aa775762d1ace85fa15280"
+          "name": "patch-1.0.3.zip.002",
+          "size": 33554432,
+          "sha256": "6215650caf7892489fd84ddfbfdab07015b70b4dcc650d88deff0963eb559999"
+        },
+        {
+          "name": "patch-1.0.3.zip.003",
+          "size": 33554432,
+          "sha256": "bf5a7513d4d71a0a748d98da6738e03c8ab9930172bbc7370d7db400d12ba35c"
+        },
+        {
+          "name": "patch-1.0.3.zip.004",
+          "size": 33554432,
+          "sha256": "7ad1f2ec710a7e39fb813c015831229bae0097117d10e9712e76b42da98bbbbc"
+        },
+        {
+          "name": "patch-1.0.3.zip.005",
+          "size": 33554432,
+          "sha256": "89f060ebf49cc9525c86b48bfffc42900ada95d1f338fb1c2f51774d39940e1c"
+        },
+        {
+          "name": "patch-1.0.3.zip.006",
+          "size": 16502321,
+          "sha256": "ec1fce490f99db14e615298be516c25de52ac183100c29cbf3a5b518b6126830"
         }
-      ]
+      ],
+      "from": "20260219"
     }
   ],
   "origins": [
     "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
     "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/"
   ],
-  "notes": "1.0.2：修正客户端内嵌的服务器地址错误（此前被写死为 127.0.0.1，导致进游戏时提示「服务器连接失败」）。更新完成后即可正常登录。",
+  "notes": "1.0.3：改为「全量包」分发 —— 一次更新即可对齐到最新，任意历史版本都能直接升上来，不必逐版本按序打补丁。同时修正客户端内嵌的服务器地址（此前写死 127.0.0.1，导致进游戏提示「服务器连接失败」）。",
   "launcher": {
     "version": "1.0.3",
     "name": "RoLauncher-1.0.3.exe",
-    "size": 64697683,
-    "sha256": "e19cd466c92f07759915ef83831ccd5e047b7405ea0827b7ba90d7d2e44ba5eb",
+    "size": 64699731,
+    "sha256": "b3e38014d6ee2ba17cca0ea9e984dbfd9508320b34cb19a14e95a75c66eda31d",
     "origins": [
       "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
     ],
-    "notes": "全部更新通道改为 Gitee 优先（国内直连）；补丁包支持分片下载（每片 32 MB，绕开 Gitee 单附件上限）"
+    "notes": "1.0.3：支持补丁分片下载与版本链校验（跳版本/清单裁剪也能正确升级）"
   }
 }
