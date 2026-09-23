@@ -23,6 +23,10 @@
     "name": "RoLauncher-1.0.2.exe",
     "size": 64690515,
     "sha256": "2f2405ae01b927edd23eb3715ffd0c869cdb8f65620eeb7bd10f4c8921bfedde",
-    "notes": "启动器 1.0.2：更新源改为 Gitee 优先（国内直连），GitHub 自动兜底"
+    "notes": "启动器 1.0.2：更新源改为 Gitee 优先（国内直连），GitHub 自动兜底",
+    "origins": [
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.2/",
+      "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
+    ]
   }
 }
