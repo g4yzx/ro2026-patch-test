@@ -2,11 +2,11 @@
   "base": "20260219",
   "latest": "1.0.2",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.2/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
   "mirrors": [
-    "https://ghproxy.net/",
     "https://gh-proxy.com/",
     "https://ghfast.top/",
+    "https://ghproxy.net/",
     ""
   ],
   "patches": [
@@ -14,19 +14,35 @@
       "ver": "1.0.2",
       "url": "patch-1.0.2.zip",
       "sha256": "d66e1918f975bded9a860418f2ad16e318697d322a799fa8b6535ef39e081d2d",
-      "size": 46683244
+      "size": 46683244,
+      "parts": [
+        {
+          "name": "patch-1.0.2.zip.001",
+          "size": 33554432,
+          "sha256": "1878d9cdbaa233213cedbf60f8bc3ddb70b237497814cf8b3431d4b405a5c487"
+        },
+        {
+          "name": "patch-1.0.2.zip.002",
+          "size": 13128812,
+          "sha256": "68d03e189e678d9834045798c92e9f0b9408a7be52aa775762d1ace85fa15280"
+        }
+      ]
     }
+  ],
+  "origins": [
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/"
   ],
   "notes": "1.0.2：修正客户端内嵌的服务器地址错误（此前被写死为 127.0.0.1，导致进游戏时提示「服务器连接失败」）。更新完成后即可正常登录。",
   "launcher": {
-    "version": "1.0.2",
-    "name": "RoLauncher-1.0.2.exe",
-    "size": 64690515,
-    "sha256": "2f2405ae01b927edd23eb3715ffd0c869cdb8f65620eeb7bd10f4c8921bfedde",
-    "notes": "启动器 1.0.2：更新源改为 Gitee 优先（国内直连），GitHub 自动兜底",
+    "version": "1.0.3",
+    "name": "RoLauncher-1.0.3.exe",
+    "size": 64697683,
+    "sha256": "e19cd466c92f07759915ef83831ccd5e047b7405ea0827b7ba90d7d2e44ba5eb",
     "origins": [
-      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.2/",
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.3/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
-    ]
+    ],
+    "notes": "全部更新通道改为 Gitee 优先（国内直连）；补丁包支持分片下载（每片 32 MB，绕开 Gitee 单附件上限）"
   }
 }
