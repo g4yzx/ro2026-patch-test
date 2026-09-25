@@ -1,8 +1,8 @@
 {
   "base": "20260219",
-  "latest": "1.0.4",
+  "latest": "1.0.5",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.4/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
   "mirrors": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -11,59 +11,59 @@
   ],
   "patches": [
     {
-      "ver": "1.0.4",
-      "url": "patch-1.0.4.zip",
-      "sha256": "d3f31cf0916097cbae84a1bf0df1777285336ce2b8223c938a47af3165696ec1",
-      "size": 184279729,
+      "ver": "1.0.5",
+      "url": "patch-1.0.5.zip",
+      "sha256": "da665e6c76887124c7070b2c388d533ce8bd086496be191d0d845ab787259099",
+      "size": 184251365,
       "parts": [
         {
-          "name": "patch-1.0.4.zip.001",
+          "name": "patch-1.0.5.zip.001",
           "size": 33554432,
-          "sha256": "50f826a287a558e32ed19c5287511ef218ed51fe8a30ecd627a42bb4f394038b"
+          "sha256": "255764a9564068d697a07a015e4efd197c6d7c78492fedc60088567ee668abf9"
         },
         {
-          "name": "patch-1.0.4.zip.002",
+          "name": "patch-1.0.5.zip.002",
           "size": 33554432,
           "sha256": "b40a97686880a83a25f3f19a8fe0e61bfa16cda88cd25de9c6985ad66db2cbb4"
         },
         {
-          "name": "patch-1.0.4.zip.003",
+          "name": "patch-1.0.5.zip.003",
           "size": 33554432,
-          "sha256": "1df93715c40f1e2fc4a5606cf0410fcf1332a0689232249787f1037231ecbdf7"
+          "sha256": "b36600d2248052edf4199a2ab2501fd5f473f5bcb0cd4fdc4a8d335c30c591aa"
         },
         {
-          "name": "patch-1.0.4.zip.004",
+          "name": "patch-1.0.5.zip.004",
           "size": 33554432,
-          "sha256": "60f39421957819d547e1502acfd321cb0ddbbbc1958e4a6aa8075d46ec4b00f6"
+          "sha256": "edcfba4b21ae1555cae30145cf4e2d4f5f4f4f7a022c165ab6a70aec7a46e158"
         },
         {
-          "name": "patch-1.0.4.zip.005",
+          "name": "patch-1.0.5.zip.005",
           "size": 33554432,
-          "sha256": "7f2c099b9712f24035e90243137735425a37dd940eb606e78d2e17101bf1b971"
+          "sha256": "41970c2afdef4a46db86257b7a928bac0f6ba64611f2d03a77c9484040aec5c5"
         },
         {
-          "name": "patch-1.0.4.zip.006",
-          "size": 16507569,
-          "sha256": "6e080e62a828889160e79eb391537f21f50d8e6d3dbc3886fd6ca84aac7f3450"
+          "name": "patch-1.0.5.zip.006",
+          "size": 16479205,
+          "sha256": "82766af2854a0869be31beed33be2cac4b25031ee1e6c21a15fc5e418efd4402"
         }
       ],
       "from": "20260219"
     }
   ],
   "origins": [
-    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.4/",
-    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.4/"
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/"
   ],
-  "notes": "1.0.4 修复登录：客户端登录地址改回域名 ro.yzxhome.cn；新启动器启动前自动把域名解析成当前 IP 写入 clientinfo，公网 IP 变动后不会再导致无法登录",
+  "notes": "本次更新（1.0.5）· 汉化补完\n\n【冒险向导 / 任务】\n· 「冒险向导」各任务页的任务名、摘要与正文全面汉化\n· 任务详情页（按 Q 开头的任务条目）标题与描述汉化，累计处理 19 批\n· 任务需求物品的英文名改为官方中文名（含常用装备）\n\n【装备属性面板】\n· 装备属性面板中的英文条目改为中文（此前需解包 GRF 才能修改，本版已内置）\n\n【说明】\n· 本次只更新客户端文本资源，不改变任何数值、掉落与规则\n· 启动器会在启动前自动把域名解析成当前 IP 写入配置，公网 IP 变动后仍可正常登录\n· 更新完成后自动进入游戏；如遇更新失败，可重新打开启动器重试",
   "launcher": {
     "version": "1.0.5",
     "name": "RoLauncher-1.0.5.exe",
     "size": 64707923,
     "sha256": "0d3db01830d48d8039a60281e8890c20be539ea6f928d4aeb0f9e8b2a3dac394",
     "origins": [
-      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.4/",
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
     ],
-    "notes": "启动器 1.0.5：修复登录地址解析（启动时把域名解析为当前 IP 写入 clientinfo）"
+    "notes": "启动器 1.0.5（与 1.0.4 同一构建）：启动前自动把 clientinfo 里的域名解析成当前 IP，公网 IP 变动后仍可登录。"
   }
 }
