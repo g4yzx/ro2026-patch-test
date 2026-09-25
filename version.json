@@ -1,8 +1,8 @@
 {
   "base": "20260219",
-  "latest": "1.0.6",
+  "latest": "1.0.7",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
   "mirrors": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -11,67 +11,67 @@
   ],
   "patches": [
     {
-      "ver": "1.0.6",
-      "url": "patch-1.0.6.zip",
-      "sha256": "fb9bd038ee8fec947ad15d319d1af2b44dc400e099be65db67a7d4a6ec9ccc4c",
-      "size": 237437235,
+      "ver": "1.0.7",
+      "url": "patch-1.0.7.zip",
+      "sha256": "5deacb04fd68700d382a06777cba5c0b7ec9106b99df25f98be5a01b439e54e8",
+      "size": 237436810,
       "parts": [
         {
-          "name": "patch-1.0.6.zip.001",
+          "name": "patch-1.0.7.zip.001",
           "size": 33554432,
           "sha256": "255764a9564068d697a07a015e4efd197c6d7c78492fedc60088567ee668abf9"
         },
         {
-          "name": "patch-1.0.6.zip.002",
+          "name": "patch-1.0.7.zip.002",
           "size": 33554432,
           "sha256": "b40a97686880a83a25f3f19a8fe0e61bfa16cda88cd25de9c6985ad66db2cbb4"
         },
         {
-          "name": "patch-1.0.6.zip.003",
+          "name": "patch-1.0.7.zip.003",
           "size": 33554432,
-          "sha256": "9c6cd4d36cb40607dc453f74ad29b683476fb1fc64ec23bc77b2b15c479b06f4"
+          "sha256": "f362e6cad3c6cc9f85375708dbc78921ddc8147f5aafd03bf78ae28e5934cd97"
         },
         {
-          "name": "patch-1.0.6.zip.004",
+          "name": "patch-1.0.7.zip.004",
           "size": 33554432,
-          "sha256": "ca267457c5a7f80f0a9923d5722963b4b25cd6c8baad87606ff1f41554ce3e69"
+          "sha256": "ffa4b7537bbcdb3ce9309990087a5ad50ea8b62ec3342ffba04ecc082613bc19"
         },
         {
-          "name": "patch-1.0.6.zip.005",
+          "name": "patch-1.0.7.zip.005",
           "size": 33554432,
-          "sha256": "a0b6b7962a6b696d828d39be4b646a8a0375210b0816fc7e424f9eb8c08d6dc1"
+          "sha256": "7600a7c7a3c5512bc4123f7d5828b428818acc840610c785a3baa4929a27ca8f"
         },
         {
-          "name": "patch-1.0.6.zip.006",
+          "name": "patch-1.0.7.zip.006",
           "size": 33554432,
-          "sha256": "025e6d9f8baf477802f031ec21afd8033dbd75b8dfc48f741fc4c6c859e5bf7b"
+          "sha256": "ecffab132b6f8223a66430c3b57d81e96aad5a7353180eaecb927a7e0a1bdadd"
         },
         {
-          "name": "patch-1.0.6.zip.007",
+          "name": "patch-1.0.7.zip.007",
           "size": 33554432,
-          "sha256": "9a88d3bcbc6ef33a5ac12d1304e038403e65275190be9c9421f39ef025589ac0"
+          "sha256": "ed1b83a7643cda46f93414574a6abfe86ea233bf5c67c52f42a2ccb7b1fa3b2e"
         },
         {
-          "name": "patch-1.0.6.zip.008",
-          "size": 2556211,
-          "sha256": "6dcac196d444bc031268c280bd331e966b15cb5a4edcbcadbf086fbe7bbe7386"
+          "name": "patch-1.0.7.zip.008",
+          "size": 2555786,
+          "sha256": "f5e712da8c9d681a0e8bedd423396fb51a019d0805133d3058d75bc369ed5172"
         }
       ],
       "from": "20260219"
     }
   ],
   "origins": [
-    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
-    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/"
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/"
   ],
-  "notes": "1.0.6 客户端资源补全：① NPC 身形 sprite 8 件（修复孫燕姿等 NPC 弹 Spr::Cannot find File）；② PC 衣服色板 90,851 件（修复 palette 缺失，衣服色 0-553 全可用）。共 107,309 条 / 226.4 MB，全量包（from 20260219）。",
+  "notes": "本次更新（1.0.7）· 客户端资源纯净化\n\n【修正】\n· 修复游戏内「设置」界面被写入的调试项（此前的 1.0.5 / 1.0.6 更新包误带了开发阶段的界面缩放实验代码）\n  更新后设置界面恢复为标准外观，点击任何选项都不会触发无效指令\n\n【保留（自上版延续）】\n· PC 衣服色板补全：色号 0-553 全部可用（修复部分颜色报错）\n· NPC 身形资源补全：修复部分 NPC 出现「Cannot find File」弹窗\n· 任务 / 冒险向导 / 装备属性面板中文化（1.0.5 内容）\n· 启动器启动前自动解析域名写入地址，公网 IP 变动后仍可登录\n\n【说明】\n· 本次只更新客户端资源文件，不改变任何数值、掉落与规则\n· 若更新失败，重新打开启动器即可重试（已下载的分片会跳过）",
   "launcher": {
     "version": "1.0.5",
     "name": "RoLauncher.exe",
     "size": 64707923,
     "sha256": "0d3db01830d48d8039a60281e8890c20be539ea6f928d4aeb0f9e8b2a3dac394",
     "origins": [
-      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
     ]
   }
