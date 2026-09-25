@@ -1,8 +1,8 @@
 {
   "base": "20260219",
-  "latest": "1.0.5",
+  "latest": "1.0.6",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
   "mirrors": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -11,59 +11,68 @@
   ],
   "patches": [
     {
-      "ver": "1.0.5",
-      "url": "patch-1.0.5.zip",
-      "sha256": "da665e6c76887124c7070b2c388d533ce8bd086496be191d0d845ab787259099",
-      "size": 184251365,
+      "ver": "1.0.6",
+      "url": "patch-1.0.6.zip",
+      "sha256": "fb9bd038ee8fec947ad15d319d1af2b44dc400e099be65db67a7d4a6ec9ccc4c",
+      "size": 237437235,
       "parts": [
         {
-          "name": "patch-1.0.5.zip.001",
+          "name": "patch-1.0.6.zip.001",
           "size": 33554432,
           "sha256": "255764a9564068d697a07a015e4efd197c6d7c78492fedc60088567ee668abf9"
         },
         {
-          "name": "patch-1.0.5.zip.002",
+          "name": "patch-1.0.6.zip.002",
           "size": 33554432,
           "sha256": "b40a97686880a83a25f3f19a8fe0e61bfa16cda88cd25de9c6985ad66db2cbb4"
         },
         {
-          "name": "patch-1.0.5.zip.003",
+          "name": "patch-1.0.6.zip.003",
           "size": 33554432,
-          "sha256": "b36600d2248052edf4199a2ab2501fd5f473f5bcb0cd4fdc4a8d335c30c591aa"
+          "sha256": "9c6cd4d36cb40607dc453f74ad29b683476fb1fc64ec23bc77b2b15c479b06f4"
         },
         {
-          "name": "patch-1.0.5.zip.004",
+          "name": "patch-1.0.6.zip.004",
           "size": 33554432,
-          "sha256": "edcfba4b21ae1555cae30145cf4e2d4f5f4f4f7a022c165ab6a70aec7a46e158"
+          "sha256": "ca267457c5a7f80f0a9923d5722963b4b25cd6c8baad87606ff1f41554ce3e69"
         },
         {
-          "name": "patch-1.0.5.zip.005",
+          "name": "patch-1.0.6.zip.005",
           "size": 33554432,
-          "sha256": "41970c2afdef4a46db86257b7a928bac0f6ba64611f2d03a77c9484040aec5c5"
+          "sha256": "a0b6b7962a6b696d828d39be4b646a8a0375210b0816fc7e424f9eb8c08d6dc1"
         },
         {
-          "name": "patch-1.0.5.zip.006",
-          "size": 16479205,
-          "sha256": "82766af2854a0869be31beed33be2cac4b25031ee1e6c21a15fc5e418efd4402"
+          "name": "patch-1.0.6.zip.006",
+          "size": 33554432,
+          "sha256": "025e6d9f8baf477802f031ec21afd8033dbd75b8dfc48f741fc4c6c859e5bf7b"
+        },
+        {
+          "name": "patch-1.0.6.zip.007",
+          "size": 33554432,
+          "sha256": "9a88d3bcbc6ef33a5ac12d1304e038403e65275190be9c9421f39ef025589ac0"
+        },
+        {
+          "name": "patch-1.0.6.zip.008",
+          "size": 2556211,
+          "sha256": "6dcac196d444bc031268c280bd331e966b15cb5a4edcbcadbf086fbe7bbe7386"
         }
       ],
       "from": "20260219"
     }
   ],
   "origins": [
-    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
-    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/"
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/"
   ],
-  "notes": "本次更新（1.0.5）· 汉化补完\n\n【冒险向导 / 任务】\n· 「冒险向导」各任务页的任务名、摘要与正文全面汉化\n· 任务详情页（按 Q 开头的任务条目）标题与描述汉化，累计处理 19 批\n· 任务需求物品的英文名改为官方中文名（含常用装备）\n\n【装备属性面板】\n· 装备属性面板中的英文条目改为中文（此前需解包 GRF 才能修改，本版已内置）\n\n【说明】\n· 本次只更新客户端文本资源，不改变任何数值、掉落与规则\n· 启动器会在启动前自动把域名解析成当前 IP 写入配置，公网 IP 变动后仍可正常登录\n· 更新完成后自动进入游戏；如遇更新失败，可重新打开启动器重试",
+  "notes": "1.0.6 客户端资源补全：① NPC 身形 sprite 8 件（修复孫燕姿等 NPC 弹 Spr::Cannot find File）；② PC 衣服色板 90,851 件（修复 palette 缺失，衣服色 0-553 全可用）。共 107,309 条 / 226.4 MB，全量包（from 20260219）。",
   "launcher": {
     "version": "1.0.5",
-    "name": "RoLauncher-1.0.5.exe",
+    "name": "RoLauncher.exe",
     "size": 64707923,
     "sha256": "0d3db01830d48d8039a60281e8890c20be539ea6f928d4aeb0f9e8b2a3dac394",
     "origins": [
-      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.5/",
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.6/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
-    ],
-    "notes": "启动器 1.0.5（与 1.0.4 同一构建）：启动前自动把 clientinfo 里的域名解析成当前 IP，公网 IP 变动后仍可登录。"
+    ]
   }
 }
