@@ -60,15 +60,17 @@
     }
   ],
   "origins": [
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
     "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/"
   ],
   "notes": "本次更新（1.0.7 修订）· 客户端资源打包优化\n\n【优化】\n· 客户端资源改为打包进 GRF：原先铺在 data 目录里的 10.7 万个零碎文件（服装色板 / NPC 身形 / 贴图 / 界面皮肤）已收进 new.grf\n· 客户端目录文件数从 11 万降到几十个；更新时不再写入大量小文件 ⇒ 更新更快、更不易失败（此前有玩家在更新阶段卡住、或被安全软件逐个拦截）\n\n【内容不变】\n· 游戏内容、数值、掉落、规则全部不变；版本号仍为 1.0.7（本次仅调整资源打包方式）\n· PC 衣服色板色号 0-553 全可用、NPC 身形资源补全、任务 / 冒险向导 / 装备属性面板中文化（自上版延续）\n· 设置界面纯净度修复（清扫开发期实验项）\n\n【说明】\n· 启动器检测到资源变化会自动重新更新；若更新失败，重新打开启动器即可重试（已下载的分片会跳过）",
   "launcher": {
     "version": "1.0.5",
-    "name": "RoLauncher-1.0.5.exe",
+    "name": "RoLauncher.exe",
     "size": 64707923,
     "sha256": "0d3db01830d48d8039a60281e8890c20be539ea6f928d4aeb0f9e8b2a3dac394",
     "origins": [
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
     ]
   }
