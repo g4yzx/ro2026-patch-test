@@ -1,8 +1,8 @@
 {
   "base": "20260219",
-  "latest": "0.0.1",
+  "latest": "1.0.7",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v0.0.1/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/",
   "mirrors": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -11,13 +11,65 @@
   ],
   "patches": [
     {
-      "ver": "0.0.1",
-      "url": "patch-0.0.1.zip",
-      "sha256": "91117dccdfe8db42ec6e4d8fb6966614f0f2eecbe88b7f96a91272eb07e101f8",
-      "size": 231765
+      "ver": "1.0.7",
+      "url": "patch-1.0.7.zip",
+      "sha256": "3b84e51f4a46756b73a3343fd3faadcd0fc3cc051413be7cf8974a1b9402327c",
+      "size": 242753478,
+      "parts": [
+        {
+          "name": "patch-1.0.7.zip.001",
+          "size": 33554432,
+          "sha256": "255764a9564068d697a07a015e4efd197c6d7c78492fedc60088567ee668abf9"
+        },
+        {
+          "name": "patch-1.0.7.zip.002",
+          "size": 33554432,
+          "sha256": "a029bf27a39f0ceb7254e71426f328982b466114b48fae8d348636b90b0c9026"
+        },
+        {
+          "name": "patch-1.0.7.zip.003",
+          "size": 33554432,
+          "sha256": "3fe64aec53337b351da8d644f8879e04a09cb14bcd60209aea2497735403744b"
+        },
+        {
+          "name": "patch-1.0.7.zip.004",
+          "size": 33554432,
+          "sha256": "44b556c47226deb55c3cc1980f07ab1b8abb24b77d7ef2ae2fdfd0322716d23b"
+        },
+        {
+          "name": "patch-1.0.7.zip.005",
+          "size": 33554432,
+          "sha256": "3213538cc35caca3b18b25e7643dc237bdd2aeda765c58400f18ffa85712038d"
+        },
+        {
+          "name": "patch-1.0.7.zip.006",
+          "size": 33554432,
+          "sha256": "761f98d11fb71ea91db254bf673ab593eb66bc21b8c8d0cdb09b214ce6afcd47"
+        },
+        {
+          "name": "patch-1.0.7.zip.007",
+          "size": 33554432,
+          "sha256": "f29e75b6c9f1716d60a34e1580ad0b7fb316043f6444a6b5a0165d134e8c41ac"
+        },
+        {
+          "name": "patch-1.0.7.zip.008",
+          "size": 7872454,
+          "sha256": "a8aa865e6aede4d729e704b0fe129b1021c0f78b72bd95b3dda21428facb092a"
+        }
+      ]
     }
   ],
   "origins": [
-    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v0.0.1/"
-  ]
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.7/"
+  ],
+  "notes": "本次更新（1.0.7 修订）· 客户端资源打包优化\n\n【优化】\n· 客户端资源改为打包进 GRF：原先铺在 data 目录里的 10.7 万个零碎文件（服装色板 / NPC 身形 / 贴图 / 界面皮肤）已收进 new.grf\n· 客户端目录文件数从 11 万降到几十个；更新时不再写入大量小文件 ⇒ 更新更快、更不易失败（此前有玩家在更新阶段卡住、或被安全软件逐个拦截）\n\n【内容不变】\n· 游戏内容、数值、掉落、规则全部不变；版本号仍为 1.0.7（本次仅调整资源打包方式）\n· PC 衣服色板色号 0-553 全可用、NPC 身形资源补全、任务 / 冒险向导 / 装备属性面板中文化（自上版延续）\n· 设置界面纯净度修复（清扫开发期实验项）\n\n【说明】\n· 启动器检测到资源变化会自动重新更新；若更新失败，重新打开启动器即可重试（已下载的分片会跳过）",
+  "launcher": {
+    "version": "1.0.5",
+    "name": "RoLauncher-1.0.5.exe",
+    "size": 64707923,
+    "sha256": "0d3db01830d48d8039a60281e8890c20be539ea6f928d4aeb0f9e8b2a3dac394",
+    "origins": [
+      "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
+    ]
+  }
 }
