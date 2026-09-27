@@ -1,0 +1,4 @@
+# 施工备份（脚本 release_fanout.py 已改为写到仓库外，此处兜底）
+*.bak_*
+*.bak_fanout_*
+*_pre_deploy_backup_*/
