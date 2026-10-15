@@ -1,8 +1,8 @@
 {
   "base": "20260219",
-  "latest": "1.0.9",
+  "latest": "1.0.10",
   "minLauncher": "1.0.0",
-  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.9/",
+  "origin": "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.10/",
   "mirrors": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -11,82 +11,83 @@
   ],
   "patches": [
     {
-      "ver": "1.0.9",
-      "url": "patch-1.0.9.zip",
-      "sha256": "f7353c4b3a9d06b7b6a7ec39a0444f7f4e3eb78d5b97e948fade7d0e56193c6b",
-      "size": 366661796,
+      "ver": "1.0.10",
+      "url": "patch-1.0.10.zip",
+      "sha256": "f7d8c77fc77265e43c89ad0c88929cdb6cfe44c63e1f714ef0e527c831b49cfd",
+      "size": 368149927,
       "parts": [
         {
-          "name": "patch-1.0.9.zip.001",
+          "name": "patch-1.0.10.zip.001",
           "size": 33554432,
-          "sha256": "3c0aeb13fffc9c85266c5958df0c9f0a151159fc0308af6f9f0f59610b1f20da"
+          "sha256": "1ba8f6b62271ead88fd97d9f03df0a8b9198c7e8ce7dbcbe77ba7f68f9291a06"
         },
         {
-          "name": "patch-1.0.9.zip.002",
+          "name": "patch-1.0.10.zip.002",
           "size": 33554432,
-          "sha256": "a7a7e38a9e1ec85d686de808b9539fb7849b087f8aad9bd8d15840bfdc996c00"
+          "sha256": "3599fa5a02d1020bca358a9381d2bf356ad0385319afa8215cfe28b96a3cc266"
         },
         {
-          "name": "patch-1.0.9.zip.003",
+          "name": "patch-1.0.10.zip.003",
           "size": 33554432,
-          "sha256": "73606b8b698f60e7f43e38c7abcb3fce0b18e325a77d7e870eacc5115048af9d"
+          "sha256": "68b22112e17dba2e48e157e51c6bff7057f0ee3b829a52f302085576f2e20e43"
         },
         {
-          "name": "patch-1.0.9.zip.004",
+          "name": "patch-1.0.10.zip.004",
           "size": 33554432,
-          "sha256": "df0a7bcc10a93db4cb42bb2f24cc3fc7d42f600f00edef6e3f571c6178cb28a9"
+          "sha256": "2aa0df79f90cac648c07cddd6f8fbf88295d3794d66a3e287257f1057248cda2"
         },
         {
-          "name": "patch-1.0.9.zip.005",
+          "name": "patch-1.0.10.zip.005",
           "size": 33554432,
-          "sha256": "7187cc696a64650b073cca76cc61de8b75333f42784d7e28e68110b47a94b973"
+          "sha256": "e6f330ca2cc94051e1375053a159a24f925a31e333ace0e452285c061c192d16"
         },
         {
-          "name": "patch-1.0.9.zip.006",
+          "name": "patch-1.0.10.zip.006",
           "size": 33554432,
-          "sha256": "89077b54ba472993ceb6090b61d96e481661d8b1c47057fcdf8f8aa8226fba86"
+          "sha256": "07da91fe661e20653ea665576c1bbf2dbedf48cbc9b4af4897e3d4a9bfb893f1"
         },
         {
-          "name": "patch-1.0.9.zip.007",
+          "name": "patch-1.0.10.zip.007",
           "size": 33554432,
-          "sha256": "140bf1a596df4bcad7f7cc3c08037fa1a54c10649341bf014e2ef59c2c3e536d"
+          "sha256": "b561265258af99e33833e0bf481672da1373b11dc1d7afe751ef1cba5915bb6e"
         },
         {
-          "name": "patch-1.0.9.zip.008",
+          "name": "patch-1.0.10.zip.008",
           "size": 33554432,
-          "sha256": "842f3a28a4ce950aec15379855a325dc5325394722f6d3c5bbe041583e0f04c4"
+          "sha256": "ffa4f59023fc4c7296aebc2d5fa63659bded8a4def754b8dc49d5325e8ad54e2"
         },
         {
-          "name": "patch-1.0.9.zip.009",
+          "name": "patch-1.0.10.zip.009",
           "size": 33554432,
-          "sha256": "bc9e20c294c3600fa57459c6d7445afef965930dc8d4620c959690d6051d76e1"
+          "sha256": "646f631c5c9bf1635d1c4901e21f9e53e6178ea5d45f9d7207f924762c33186b"
         },
         {
-          "name": "patch-1.0.9.zip.010",
+          "name": "patch-1.0.10.zip.010",
           "size": 33554432,
-          "sha256": "c2965b7b42a5243c408aeb39535d4e5d6936bf3a99bdf13caa6cb9a24c4005ed"
+          "sha256": "99fa1685f96310258c3e64346a0c3d4aaaeb022e8453432e25553052a9588acd"
         },
         {
-          "name": "patch-1.0.9.zip.011",
-          "size": 31117476,
-          "sha256": "226f6be555661be6d763c6f88b590eb476deb4d2784d59342ce4945eb7b639a1"
+          "name": "patch-1.0.10.zip.011",
+          "size": 32605607,
+          "sha256": "7004e98e52254a38fea1e7a2c104738076c24b2252f4af23cd995296dd0f9b54"
         }
       ]
     }
   ],
   "origins": [
-    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.9/",
-    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.9/"
+    "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.10/",
+    "https://github.com/g4yzx/ro2026-patch-test/releases/download/v1.0.10/"
   ],
-  "notes": "### 客户端更新 1.0.9（2026-10-06）· 「装备属性」面板全面中文化\n\n【汉化】\n· 装备属性面板：左侧分类（全部 / 素质 / 能力 / 战斗 / 属性 / 种族 / 技能 / 特殊）与右侧属性条目全部显示为中文\n· 属性说明：修正面板中「减少 / 增加 / 解除 / 秒」等文字，不再出现问号\n· 界面字体：更换界面字体，中文显示更完整清晰（此前部分文字会显示成问号）\n\n【修复】\n· 修复「装备属性」窗口文字显示为乱码 / 问号的问题\n\n【说明】\n· 本次只更新客户端资源与文本，不改变任何数值、掉落与规则\n· 若更新失败，重新打开启动器即可重试（已下载的分片会跳过）",
+  "notes": "### 客户端更新 1.0.10（2026-10-16）· 登录界面「注册」按钮修好了\n\n【修复】\n\n- 游戏登录界面点「**注册**」不再把客户端关掉 —— 现在会正常打开注册页面\n  （此前是打不开网页、客户端直接退出）\n- 客户端内含的服务器地址恢复为**域名**（原先写成了固定 IP）——\n  家里宽带换 IP 之后，老客户端不会再连到旧地址上\n\n【同步】\n\n- 客户端资源与文本跟随本批汉化修订一并更新（整包不用重下，走启动器更新即可）\n\n【说明】\n\n- 本次只更新客户端资源与文本，**不改变任何数值、掉落与规则**\n- 若更新失败，重新打开启动器即可重试（已下载的分片会跳过）",
   "launcher": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "name": "RoLauncher.exe",
-    "size": 64989523,
-    "sha256": "1e113020f182ff6215f18eae5222101103ea4ac202f117b63f5f4197f37316f6",
+    "size": 64992083,
+    "sha256": "528b5299e6036e94b45b58ad4d261dd6c6822af494f36e92fa2e80c4fee68551",
     "origins": [
-      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.9/",
+      "https://gitee.com/g4yzx/ro2026-patch-test/releases/download/v1.0.10/",
       "https://raw.githubusercontent.com/g4yzx/ro2026-patch-test/main/"
-    ]
+    ],
+    "notes": "新增「注册账号」按钮：不用先进游戏，点一下就能打开注册页面建号。"
   }
 }
